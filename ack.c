@@ -294,7 +294,7 @@ static void usage(const char *name) {
         "\n"
         "Examples:\n"
         "  ./ack 1.1.1.0/24 80 60          # flood the /24 subnet\n"
-        "  ./ack 1.1.1.1 80 60 -l 1400       # single host, packet len for gbps\n"
+        "  ./ack 1.1.1.1 80 60 -l 1400       # single target, packet len for gbps\n"
         , name, name, name, name);
 }
 
