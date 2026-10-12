@@ -289,8 +289,12 @@ static void usage(const char *name) {
         "Target can be a CIDR subnet /24-/28.\n"
         "\n"
         "Options:\n"
-        "  -t N          worker threads  (default 4)\n"
+        "  -t N          threads  (default 4)\n"
         "  -l N          payload bytes 1-1400  (1 = PPS, 1400 = GBPS, default 1)\n"
+        "\n"
+        "Examples:\n"
+        "  ./ack 1.1.1.0/24 80 60          # flood the /24 subnet\n"
+        "  ./ack 1.1.1.1 80 60 -l 1400       # single host, packet len for gbps\n"
         , name, name, name, name);
 }
 
