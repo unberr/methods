@@ -5,4 +5,6 @@ These methods are good if you don't want to spend time coding yourself some, and
 
 I don't have any affiliation or being related with any illegal activities that may or may not happen with these methods.
 
+They were built only and only for testing your protection.
+
 You can sell them, modify them and sell them and do wtv you want with them. I just want the credits.
